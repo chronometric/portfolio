@@ -2,30 +2,24 @@
 let data = {
     universities: [
         {
-            during: "2014-2018",
-            name: "Texas Tech University",
-            job: "Computer Science"
+            during: "2013 – 2017",
+            name: "Hill College",
+            job: "Bachelor's Degree in Computer Science"
         },
     ],
     experiences: [
         {
-            during: "Jan 2021 - Dec 2024",
-            job: "Senior Machine Learning Engineer",
-            where: "Nike",
-            des: "Led the development of advanced AI-driven solutions for an innovative AI writing assistant designed for novelists and storytellers. (Sudowrite)\nDeveloped cutting-edge machine learning solutions to power a virtual dressing room for an immersive e-commerce shopping experience. (Veesual)",
+            during: "2020 - Present",
+            job: "Software Engineer",
+            where: "Codepaper Technologies",
+            des: "Developed an AI-based SaaS platform with CNN, LSTM, Transformer, and other sequence models on AWS using React, Django, PyTorch, Keras, and Python.<br><br>Developed a web application using C++, C#, JavaScript, ASP.NET, and AngularJS that allowed users to upload and search files in cloud storage (Elasticsearch).<br><br>Participated in the design and implementation of CI/CD and DevOps for agile projects using Python, JavaScript, Node.js, Git, Linux, Docker, Kubernetes, Nginx, Jenkins, and AWS; used tools such as React DevTools to speed up debugging and reduce debugging time by about 50%.",
         },
         {
-            during: "Oct 2018 - Jan 2021",
-            job: "Machine Learning Engineer",
-            where: "Vistendo",
-            des: "Abnormality Detection System in Soldiers  - Developed an emotion and neurological anomaly detection system for real-time monitoring of military personnel.\nAI-Powered Sleep Stage Analyzer - Developed a military-grade AI system for monitoring sleep stages and identifying sleep disorders in soldiers.",
+            during: "2017 - 2020",
+            job: "Software Engineer",
+            where: "Pizza Hut",
+            des: "Developed an API using C++, C#, .NET Core, ASP.NET, and SignalR that integrated with a third-party payment processor and enabled real-time chat and secure, reliable transactions for an e-commerce platform.<br><br>Developed a Customer Relationship Management system and company management tooling to track inventory, manage the supply chain, and analyze and extract data from competitor websites using C++, C#, .NET Framework, SQL Server, Selenium, WCF, .NET Core, Angular, and Azure Active Directory.<br><br>Maintained a large web application using HTML/CSS, JavaScript, jQuery, and PHP (Laravel); automated the monthly supplier payment billing cycle with PHP and MySQL, ran payment jobs on schedule, and adjusted conditional business logic through a web interface.",
         },
-        {
-            during: "Mar 2015 - Sep 2018",
-            job: "Machine Learning Engineer",
-            where: "Ensign Services",
-            des: "Generative Code Completion - Developed an AI-powered code completion tool to augment the productivity of developers by predicting and suggesting code snippets.",
-        }
     ],
 
 }
@@ -74,27 +68,3 @@ function init() {
 }
 
 init();
-
-function myFunction() {
-    document.getElementById("myAudio").play();
-}
-
-window.onAudioMute = () => {
-    const audio = document.getElementById("myAudio");
-
-    if (audio.volume == 0.3) {
-        document.getElementById("audioPart").setAttribute("class", "menu-icon lnr lnr-volume-high");
-        audio.pause();
-        audio.volume = 0;
-    } else {
-        document.getElementById("audioPart").setAttribute("class", "menu-icon lnr lnr-volume");
-        audio.play();
-        audio.volume = 0.3;
-    }
-
-
-}
-
-window.onclick = () => {
-    myFunction();
-}
