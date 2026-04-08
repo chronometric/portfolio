@@ -1,0 +1,230 @@
+{
+  "_comment": "Edit this file to update your site. Use \\n in strings for line breaks where noted. Valid JSON only (no comments except this key).",
+
+  "site": {
+    "title": "Hector Charo — Full-stack & ML Engineer",
+    "metaDescription": "Hector Charo — Full-stack and ML engineer. Python, React, Django, cloud, and deep learning.",
+    "metaKeywords": "portfolio, resume, full-stack, machine learning, engineer",
+    "themeColor": "#2b2b2b",
+    "author": "Hector Charo"
+  },
+
+  "person": {
+    "name": "Hector Charo",
+    "headerSubtitle1": "Full-stack & ML engineer",
+    "headerSubtitle2": "Software Engineer",
+    "photoSrc": "img/main_photo.jpg",
+    "photoAlt": "Hector Charo",
+    "cvUrl": "resume/Hector%20Charo.pdf",
+    "cvButtonLabel": "Download CV",
+    "copyrightYear": 2026
+  },
+
+  "home": {
+    "rotatingTitles": [
+      "Full-stack engineer",
+      "Machine learning engineer",
+      "Python · React · Django",
+      "AWS · Azure · GCP",
+      "DevOps & CI/CD"
+    ]
+  },
+
+  "about": {
+    "summaryParagraphs": [
+      "Innovative full-stack and ML engineer with 5+ years of experience across design, development, testing, and deployment. I build production software with strong emphasis on clear algorithms, reliable backends, and deep learning where it fits—from CNNs and LSTMs to transformers and sequence models—using Python, JavaScript, C++, C#, and related ecosystems.",
+      "I translate product requirements into maintainable systems on cloud platforms (AWS, Azure, GCP), with hands-on DevOps practice: Docker, Kubernetes, CI/CD, and tooling that keeps teams shipping safely. I care about measurable outcomes—for example, cutting debugging time with better workflows and developer tools."
+    ],
+    "contactFields": [
+      { "label": "Residence", "value": "United States" },
+      { "label": "Address", "value": "2100 TX 171, Cleburne, TX 76031" },
+      { "label": "e-mail", "value": "0693hector@gmail.com" },
+      { "label": "Phone", "value": "+1 (210) 729-0566" }
+    ],
+    "services": [
+      {
+        "iconClass": "lnr lnr-store",
+        "title": "Full-stack & APIs",
+        "text": "End-to-end web applications with React, Django, ASP.NET, Angular, and Node-style stacks; RESTful and real-time APIs, payment integrations, and secure e-commerce flows."
+      },
+      {
+        "iconClass": "lnr lnr-laptop-phone",
+        "title": "Machine learning",
+        "text": "Deep learning for SaaS products: CNNs, LSTMs, transformers, and sequence models with PyTorch and Keras, deployed on AWS and integrated with modern front ends."
+      },
+      {
+        "iconClass": "lnr lnr-pencil",
+        "title": "Cloud & DevOps",
+        "text": "CI/CD pipelines and platform work with Docker, Kubernetes, Jenkins, Linux, Nginx, and major clouds—so teams can ship iteratively with observability and sane release discipline."
+      },
+      {
+        "iconClass": "lnr lnr-flag",
+        "title": "Data & integration",
+        "text": "SQL Server, PostgreSQL, MongoDB, Elasticsearch, Selenium-driven data extraction, CRM and operations tooling, and automation for billing and business workflows."
+      }
+    ],
+    "funFacts": [
+      { "iconClass": "lnr lnr-briefcase", "title": "Years in industry", "value": "5+" },
+      { "iconClass": "lnr lnr-apartment", "title": "Roles highlighted", "value": "2" },
+      { "iconClass": "lnr lnr-cloud", "title": "Cloud platforms", "value": "3" }
+    ]
+  },
+
+  "resume": {
+    "education": [
+      {
+        "period": "2013 – 2017",
+        "institution": "Hill College",
+        "degree": "Bachelor's Degree in Computer Science"
+      }
+    ],
+    "experience": [
+      {
+        "period": "2020 - Present",
+        "company": "Codepaper Technologies",
+        "title": "Software Engineer",
+        "paragraphs": [
+          "Developed an AI-based SaaS platform with CNN, LSTM, Transformer, and other sequence models on AWS using React, Django, PyTorch, Keras, and Python.",
+          "Developed a web application using C++, C#, JavaScript, ASP.NET, and AngularJS that allowed users to upload and search files in cloud storage (Elasticsearch).",
+          "Participated in the design and implementation of CI/CD and DevOps for agile projects using Python, JavaScript, Node.js, Git, Linux, Docker, Kubernetes, Nginx, Jenkins, and AWS; used tools such as React DevTools to speed up debugging and reduce debugging time by about 50%."
+        ]
+      },
+      {
+        "period": "2017 - 2020",
+        "company": "Pizza Hut",
+        "title": "Software Engineer",
+        "paragraphs": [
+          "Developed an API using C++, C#, .NET Core, ASP.NET, and SignalR that integrated with a third-party payment processor and enabled real-time chat and secure, reliable transactions for an e-commerce platform.",
+          "Developed a Customer Relationship Management system and company management tooling to track inventory, manage the supply chain, and analyze and extract data from competitor websites using C++, C#, .NET Framework, SQL Server, Selenium, WCF, .NET Core, Angular, and Azure Active Directory.",
+          "Maintained a large web application using HTML/CSS, JavaScript, jQuery, and PHP (Laravel); automated the monthly supplier payment billing cycle with PHP and MySQL, ran payment jobs on schedule, and adjusted conditional business logic through a web interface."
+        ]
+      }
+    ],
+    "skillsPlatformHeading": { "before": "ML & ", "highlight": "platforms" },
+    "skillsPlatform": [
+      { "name": "Machine learning & NLP", "percent": 95, "bar": 1 },
+      { "name": "React / Django / Node.js", "percent": 90, "bar": 4 },
+      { "name": "Cloud (AWS, Azure, GCP)", "percent": 80, "bar": 3 },
+      { "name": "DevOps (Docker, K8s, CI/CD)", "percent": 85, "bar": 6 }
+    ],
+    "skillsCodingHeading": { "before": "Coding ", "highlight": "Skills" },
+    "skillsCoding": [
+      { "name": "Python", "percent": 95, "bar": 5 },
+      { "name": "JavaScript / TypeScript", "percent": 85, "bar": 6 },
+      { "name": "C# / .NET", "percent": 100, "bar": 7 },
+      { "name": "C++", "percent": 75, "bar": 8 },
+      { "name": "Java", "percent": 90, "bar": 9 },
+      { "name": "SQL / NoSQL (PostgreSQL, MongoDB)", "percent": 90, "bar": 9 },
+      { "name": "PHP / Laravel", "percent": 85, "bar": 6 }
+    ],
+    "knowledges": [
+      "RESTful APIs",
+      "Serverless",
+      "Generative AI",
+      "Agile / Scrum",
+      "PyTorch / Keras",
+      "Flask / Express / Nest.js",
+      "Elasticsearch",
+      "Git / GitHub",
+      "Jenkins / CircleCI",
+      "Jira",
+      "Algorithm design",
+      "Database management"
+    ]
+  },
+
+  "contact": {
+    "blocks": [
+      { "iconClass": "lnr lnr-map-marker", "line": "Cleburne, TX" },
+      { "iconClass": "lnr lnr-phone-handset", "line": "+1 (210) 729-0566" },
+      { "iconClass": "lnr lnr-envelope", "line": "0693hector@gmail.com" },
+      { "iconClass": "lnr lnr-checkmark-circle", "line": "Freelance Available" }
+    ],
+    "formHeading": "How Can I",
+    "formHeadingSpan": "Help You?"
+  },
+
+  "portfolio": [
+    {
+      "itemClass": "lbaudio",
+      "groups": ["category_all", "category_mobile", "category_unity", "category_game"],
+      "image": "img/portfolio/1.jpg",
+      "imageAlt": "Funny Wings VR game",
+      "link": "https://store.steampowered.com/app/788350/Funny_Wings_VR/",
+      "linkTitle": "Funny Wings - Cross Platform VR Game",
+      "name": "Funny Wings - Cross Platform VR Game",
+      "category": "Funny Wings - Cross Platform VR Game"
+    },
+    {
+      "itemClass": "standard",
+      "groups": ["category_all", "category_detailed", "category_unity", "category_game"],
+      "image": "img/portfolio/2.jpg",
+      "imageAlt": "Kitty Kart Racing",
+      "link": "https://www.kittykart.io/",
+      "extraIconClass": "far fa-file-alt",
+      "name": "Kitty Kart Racing",
+      "category": "3D Racing Game"
+    },
+    {
+      "itemClass": "lbvideo",
+      "groups": ["category_all", "category_unity"],
+      "image": "img/portfolio/3.jpg",
+      "imageAlt": "Moo Lander",
+      "link": "http://www.moolander.com",
+      "name": "Moo Lander",
+      "category": "2D platformer/puzzle"
+    },
+    {
+      "itemClass": "standard",
+      "groups": ["category_all", "category_mobile", "category_unity", "category_game"],
+      "image": "img/portfolio/4.jpg",
+      "imageAlt": "Act Mindful",
+      "link": "https://caduceusgaming.com/",
+      "extraIconClass": "far fa-file-alt",
+      "name": "Act Mindful",
+      "category": "Act Mindful"
+    },
+    {
+      "itemClass": "lbimage",
+      "groups": ["category_all", "category_webgl"],
+      "image": "img/portfolio/5.jpg",
+      "imageAlt": "3D Widget",
+      "link": "https://wie-wir.de/fertighauskonfigurator",
+      "name": "3D Widget for wie-wir.de",
+      "category": "3D Widget for wie-wir.de"
+    },
+    {
+      "itemClass": "lbvideo",
+      "groups": ["category_all", "category_webgl"],
+      "image": "img/portfolio/6.jpg",
+      "imageAlt": "Exiade - Aeroschool",
+      "link": "https://boualemb.gitlab.io/aeroschool/",
+      "name": "Exiade - Aeroschool",
+      "category": "Exiade - Aeroschool"
+    },
+    {
+      "itemClass": "lbvideo",
+      "groups": ["category_all", "category_blockchain"],
+      "image": "img/portfolio/7.jpg",
+      "imageAlt": "NFT Marketplace",
+      "name": "NFT Marketplace",
+      "category": "Nexus.art is built on Polygon Matic enabling artists and musicians to upload their art/music as an NFT and sell it to multiple users using Matic as a token. Auctions and Royalties are also a part of it."
+    },
+    {
+      "itemClass": "lbvideo",
+      "groups": ["category_all", "category_blockchain"],
+      "image": "img/portfolio/8.jpg",
+      "imageAlt": "Play2Earn",
+      "name": "Play2Earn",
+      "category": "Definitely Legends is a complete Play2Earn platorm built on Binance Smart chain. Metaverse is also a part of this project along with a marketplace where game characters are basically NFTs with different attributes that user can purchase as per their needs to win the battles and get rewards. The users can also resell their NFT for royalties."
+    },
+    {
+      "itemClass": "lbvideo",
+      "groups": ["category_all", "category_mobile"],
+      "image": "img/portfolio/9.jpg",
+      "imageAlt": "Mobile UI",
+      "name": "Mobile UI",
+      "category": "Mobile UI"
+    }
+  ]
+}

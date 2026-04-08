@@ -30,9 +30,9 @@
 <body>
   <a class="skip-link" href="#main-content">Skip to main content</a>
 
-  <!-- Background music: track list is in js/audio.js (data/audio/*.mp3). -->
+  <!-- Background music: data/audio/1.dat … 9.dat (see TRACKS in js/audio.js). -->
   <audio id="bg-audio" preload="auto" loop playsinline webkit-playsinline>
-    <source src="data/audio/A.mp3" type="audio/mpeg">
+    <source src="data/audio/1.dat" type="audio/mpeg">
   </audio>
 
   <div class="bg-audio-dock" role="group" aria-label="Background music controls">
@@ -213,38 +213,15 @@
               <!-- Personal Information -->
               <div class="row">
                 <div class="col-xs-12 col-sm-7">
-                  <p>Innovative full-stack and ML engineer with 5+ years of experience across design, development,
-                    testing, and deployment. I build production software with strong emphasis on clear algorithms,
-                    reliable backends, and deep learning where it fits—from CNNs and LSTMs to transformers and sequence
-                    models—using Python, JavaScript, C++, C#, and related ecosystems.</p>
-                  <p>I translate product requirements into maintainable systems on cloud platforms (AWS, Azure, GCP),
-                    with hands-on DevOps practice: Docker, Kubernetes, CI/CD, and tooling that keeps teams shipping
-                    safely. I care about measurable outcomes—for example, cutting debugging time with better workflows
-                    and developer tools.</p>
+                  <div id="about-summary">
+                    <p>Loading profile…</p>
+                  </div>
                 </div>
 
                 <div class="col-xs-12 col-sm-5">
                   <div class="info-list">
-                    <ul>
-                      <li>
-                        <span class="title">Residence</span>
-                        <span class="value">United States</span>
-                      </li>
-
-                      <li>
-                        <span class="title">Address</span>
-                        <span class="value">2100 TX 171, Cleburne, TX 76031</span>
-                      </li>
-
-                      <li>
-                        <span class="title">e-mail</span>
-                        <span class="value">0693hector@gmail.com</span>
-                      </li>
-
-                      <li>
-                        <span class="title">Phone</span>
-                        <span class="value">+1 (210) 729-0566</span>
-                      </li>
+                    <ul id="about-contact-list">
+                      <li><span class="title">Status</span><span class="value">Loading…</span></li>
                     </ul>
                   </div>
                 </div>
@@ -262,61 +239,7 @@
                 </div>
               </div>
 
-              <div class="row">
-                <div class="col-xs-12 col-sm-6">
-                  <div class="col-inner">
-                    <div class="info-list-w-icon">
-                      <div class="info-block-w-icon">
-                        <div class="ci-icon">
-                          <i class="lnr lnr-store"></i>
-                        </div>
-                        <div class="ci-text">
-                          <h4>Full-stack &amp; APIs</h4>
-                          <p>End-to-end web applications with React, Django, ASP.NET, Angular, and Node-style stacks;
-                            RESTful and real-time APIs, payment integrations, and secure e-commerce flows.</p>
-                        </div>
-                      </div>
-                      <div class="info-block-w-icon">
-                        <div class="ci-icon">
-                          <i class="lnr lnr-laptop-phone"></i>
-                        </div>
-                        <div class="ci-text">
-                          <h4>Machine learning</h4>
-                          <p>Deep learning for SaaS products: CNNs, LSTMs, transformers, and sequence models with PyTorch
-                            and Keras, deployed on AWS and integrated with modern front ends.</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-xs-12 col-sm-6">
-                  <div class="col-inner">
-                    <div class="info-list-w-icon">
-                      <div class="info-block-w-icon">
-                        <div class="ci-icon">
-                          <i class="lnr lnr-pencil"></i>
-                        </div>
-                        <div class="ci-text">
-                          <h4>Cloud &amp; DevOps</h4>
-                          <p>CI/CD pipelines and platform work with Docker, Kubernetes, Jenkins, Linux, Nginx, and
-                            major clouds—so teams can ship iteratively with observability and sane release discipline.</p>
-                        </div>
-                      </div>
-                      <div class="info-block-w-icon">
-                        <div class="ci-icon">
-                          <i class="lnr lnr-flag"></i>
-                        </div>
-                        <div class="ci-text">
-                          <h4>Data &amp; integration</h4>
-                          <p>SQL Server, PostgreSQL, MongoDB, Elasticsearch, Selenium-driven data extraction, CRM and
-                            operations tooling, and automation for billing and business workflows.</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              <div id="about-services"></div>
               <!-- End of Services -->
 
 
@@ -333,34 +256,7 @@
                 </div>
               </div>
 
-              <div class="row">
-                <div class="col-xs-12 col-sm-4">
-                  <div class="fun-fact gray-default">
-                    <i class="lnr lnr-briefcase"></i>
-                    <h4>Years in industry</h4>
-                    <span class="fun-fact-block-value">5+</span>
-                    <span class="fun-fact-block-text"></span>
-                  </div>
-                </div>
-
-                <div class="col-xs-12 col-sm-4">
-                  <div class="fun-fact gray-default">
-                    <i class="lnr lnr-apartment"></i>
-                    <h4>Roles highlighted</h4>
-                    <span class="fun-fact-block-value">2</span>
-                    <span class="fun-fact-block-text"></span>
-                  </div>
-                </div>
-
-                <div class="col-xs-12 col-sm-4 ">
-                  <div class="fun-fact gray-default">
-                    <i class="lnr lnr-cloud"></i>
-                    <h4>Cloud platforms</h4>
-                    <span class="fun-fact-block-value">3</span>
-                    <span class="fun-fact-block-text"></span>
-                  </div>
-                </div>
-              </div>
+              <div class="row" id="about-fun-facts"></div>
               <!-- End of Fun Facts -->
 
             </div>
@@ -397,132 +293,26 @@
                 <div class="col-xs-12 col-sm-5">
                   <!-- Design Skills -->
                   <div class="block-title">
-                    <h3>ML &amp; <span>platforms</span></h3>
+                    <h3 id="resume-skills-platform-heading"></h3>
                   </div>
 
-                  <div class="skills-info skills-second-style" id="">
-                    <div class="skill clearfix">
-                      <h4>Machine learning &amp; NLP</h4>
-                      <div class="skill-value">95%</div>
-                    </div>
-                    <div class="skill-container skill-1">
-                      <div class="skill-percentage"></div>
-                    </div>
-
-                    <div class="skill clearfix">
-                      <h4>React / Django / Node.js</h4>
-                      <div class="skill-value">90%</div>
-                    </div>
-                    <div class="skill-container skill-4">
-                      <div class="skill-percentage"></div>
-                    </div>
-
-                    <div class="skill clearfix">
-                      <h4>Cloud (AWS, Azure, GCP)</h4>
-                      <div class="skill-value">80%</div>
-                    </div>
-                    <div class="skill-container skill-3">
-                      <div class="skill-percentage"></div>
-                    </div>
-
-                    <div class="skill clearfix">
-                      <h4>DevOps (Docker, K8s, CI/CD)</h4>
-                      <div class="skill-value">85%</div>
-                    </div>
-                    <div class="skill-container skill-6">
-                      <div class="skill-percentage"></div>
-                    </div>
-
-                  </div>
-                  <!-- End of ML & platforms -->
+                  <div class="skills-info skills-second-style" id="resume-skills-platform"></div>
 
                   <div class="white-space-10"></div>
 
-                  <!-- Coding Skills -->
                   <div class="block-title">
-                    <h3>Coding <span>Skills</span></h3>
+                    <h3 id="resume-skills-coding-heading"></h3>
                   </div>
 
-                  <div class="skills-info skills-second-style">
-                    <div class="skill clearfix">
-                      <h4>Python</h4>
-                      <div class="skill-value">95%</div>
-                    </div>
-                    <div class="skill-container skill-5">
-                      <div class="skill-percentage"></div>
-                    </div>
-
-                    <div class="skill clearfix">
-                      <h4>JavaScript / TypeScript</h4>
-                      <div class="skill-value">85%</div>
-                    </div>
-                    <div class="skill-container skill-6">
-                      <div class="skill-percentage"></div>
-                    </div>
-
-                    <div class="skill clearfix">
-                      <h4>C# / .NET</h4>
-                      <div class="skill-value">100%</div>
-                    </div>
-                    <div class="skill-container skill-7">
-                      <div class="skill-percentage"></div>
-                    </div>
-
-                    <div class="skill clearfix">
-                      <h4>C++</h4>
-                      <div class="skill-value">75%</div>
-                    </div>
-                    <div class="skill-container skill-8">
-                      <div class="skill-percentage"></div>
-                    </div>
-
-                    <div class="skill clearfix">
-                      <h4>Java</h4>
-                      <div class="skill-value">90%</div>
-                    </div>
-                    <div class="skill-container skill-9">
-                      <div class="skill-percentage"></div>
-                    </div>
-
-                    <div class="skill clearfix">
-                      <h4>SQL / NoSQL (PostgreSQL, MongoDB)</h4>
-                      <div class="skill-value">90%</div>
-                    </div>
-                    <div class="skill-container skill-9">
-                      <div class="skill-percentage"></div>
-                    </div>
-
-                    <div class="skill clearfix">
-                      <h4>PHP / Laravel</h4>
-                      <div class="skill-value">85%</div>
-                    </div>
-                    <div class="skill-container skill-6">
-                      <div class="skill-percentage"></div>
-                    </div>
-                  </div>
-                  <!-- End of Coding Skills -->
+                  <div class="skills-info skills-second-style" id="resume-skills-coding"></div>
 
                   <div class="white-space-10"></div>
 
-                  <!-- Knowledges -->
                   <div class="block-title">
                     <h3>Knowledges</h3>
                   </div>
 
-                  <ul class="knowledges">
-                    <li>RESTful APIs</li>
-                    <li>Serverless</li>
-                    <li>Generative AI</li>
-                    <li>Agile / Scrum</li>
-                    <li>PyTorch / Keras</li>
-                    <li>Flask / Express / Nest.js</li>
-                    <li>Elasticsearch</li>
-                    <li>Git / GitHub</li>
-                    <li>Jenkins / CircleCI</li>
-                    <li>Jira</li>
-                    <li>Algorithm design</li>
-                    <li>Database management</li>
-                  </ul>
+                  <ul class="knowledges" id="resume-knowledges"></ul>
                   <!-- End of Knowledges -->
                 </div>
                 <!-- End of Skills & Certificates -->
@@ -797,43 +587,13 @@
 
               <div class="row">
                 <!-- Contact Info -->
-                <div class="col-xs-12 col-sm-4">
-                  <div class="lm-info-block gray-default">
-                    <i class="lnr lnr-map-marker"></i>
-                    <h4>Cleburne, TX</h4>
-                    <span class="lm-info-block-value"></span>
-                    <span class="lm-info-block-text"></span>
-                  </div>
-
-                  <div class="lm-info-block gray-default">
-                    <i class="lnr lnr-phone-handset"></i>
-                    <h4>+1 (210) 729-0566</h4>
-                    <span class="lm-info-block-value"></span>
-                    <span class="lm-info-block-text"></span>
-                  </div>
-
-                  <div class="lm-info-block gray-default">
-                    <i class="lnr lnr-envelope"></i>
-                    <h4>0693hector@gmail.com</h4>
-                    <span class="lm-info-block-value"></span>
-                    <span class="lm-info-block-text"></span>
-                  </div>
-
-                  <div class="lm-info-block gray-default">
-                    <i class="lnr lnr-checkmark-circle"></i>
-                    <h4>Freelance Available</h4>
-                    <span class="lm-info-block-value"></span>
-                    <span class="lm-info-block-text"></span>
-                  </div>
-
-
-                </div>
+                <div class="col-xs-12 col-sm-4" id="contact-info-blocks"></div>
                 <!-- End of Contact Info -->
 
                 <!-- Contact Form -->
                 <div class="col-xs-12 col-sm-8">
                   <div class="block-title">
-                    <h3>How Can I <span>Help You?</span></h3>
+                    <h3 id="contact-form-heading"></h3>
                   </div>
 
                   <form id="contact_form" class="contact-form" action="contact_form/contact_form.php" method="post">
@@ -914,7 +674,7 @@
   <script src="js/jquery.googlemap.js"></script>
   <script src="js/validator.js"></script>
   <script src="js/main.js"></script>
-  <script src="js/init.js"></script>
+  <script src="js/content.js"></script>
   <script src="js/audio.js"></script>
 </body>
 

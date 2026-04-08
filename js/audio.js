@@ -1,6 +1,6 @@
 /**
  * Background music: autoplay when allowed, muted fallback + unlock on gesture,
- * mute toggle, next track (data/audio/*.mp3).
+ * mute toggle, next track (data/audio/*.dat — set TRACK_MIME if not MP3).
  */
 (function () {
   'use strict';
@@ -8,19 +8,20 @@
   var STORAGE_KEY = 'portfolio-bg-audio-muted';
   var DEFAULT_VOLUME = 0.32;
   var RS_CURRENT = 2; // HTMLMediaElement.HAVE_CURRENT_DATA
+  /** Tell the decoder the real format (MP3 inside .dat filenames). */
+  var TRACK_MIME = 'audio/mpeg';
 
-  /** Order = skip order; add/remove files to match data/audio/ */
+  /** Order = skip order; filenames must exist under data/audio/ */
   var TRACKS = [
-    'data/audio/A.mp3',
-    'data/audio/G.mp3',
-    'data/audio/H.mp3',
-    'data/audio/I.mp3',
-    'data/audio/J.mp3',
-    'data/audio/K.mp3',
-    'data/audio/L.mp3',
-    'data/audio/W.mp3',
-    'data/audio/X.mp3',
-    '1.mp3'
+    'data/audio/1.dat',
+    'data/audio/2.dat',
+    'data/audio/3.dat',
+    'data/audio/4.dat',
+    'data/audio/5.dat',
+    'data/audio/6.dat',
+    'data/audio/7.dat',
+    'data/audio/8.dat',
+    'data/audio/9.dat'
   ];
 
   var audio = document.getElementById('bg-audio');
@@ -53,7 +54,7 @@
     }
     var source = document.createElement('source');
     source.src = url;
-    source.type = 'audio/mpeg';
+    source.type = TRACK_MIME;
     audio.appendChild(source);
   }
 
